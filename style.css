@@ -1,0 +1,77 @@
+:root {
+    /* Main Theme */
+    --berry-pink: #ff6f91;      /* Primary Pink */
+    --raspberry: #b71c5c;       /* Deep Berry */
+    --blush: #ffcdd2;           /* Soft Light Pink */
+    --cream: #fff9f9;           /* Background Cream */
+    --white: #ffffff;           /* Clean Card White */
+    --text-dark: #4a148c;       /* Deep Purple Text */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    background-color: var(--cream);
+    color: var(--text-dark);
+}
+
+/* --- Header --- */
+header {
+    background: linear-gradient(135deg, var(--berry-pink), var(--raspberry));
+    color: var(--white);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+/* --- Navigation --- */
+nav a {
+    color: var(--blush);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--white);
+}
+
+/* --- Sections --- */
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background: var(--white);
+    border-top: 5px solid var(--berry-pink); /* Accent top border */
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 15px rgba(183, 28, 92, 0.1);
+}
+
+/* --- Interactive Elements --- */
+button {
+    background-color: var(--raspberry);
+    color: var(--white);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px; /* Rounded button */
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    background-color: var(--berry-pink);
+    transform: scale(1.05);
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--raspberry);
+    background-color: var(--blush);
+}
