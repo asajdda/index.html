@@ -1,5 +1,11 @@
 :root {
-
+    /* Main Theme */
+    --berry-pink: #ff6f91;      /* Primary Pink */
+    --raspberry: #b71c5c;       /* Deep Berry */
+    --blush: #ffcdd2;           /* Soft Light Pink */
+    --cream: #fff9f9;           /* Background Cream */
+    --white: #ffffff;           /* Clean Card White */
+    --text-dark: #4a148c;       /* Deep Purple Text */
 }
 
 html {
